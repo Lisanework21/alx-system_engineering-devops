@@ -1,2 +1,2 @@
 #!/bin/bash
-find PATH -type d \! -name . -prune -exec printf x \; | wc -c
+echo "$wc -w($PATH)"
